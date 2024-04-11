@@ -19,7 +19,7 @@ public class ConnectDB{
     
     public Connection openConnection() throws Exception {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        Connection con = DriverManager.getConnection("jdbc:sqlserver://127.0.0.1:1433;databaseName=PRJ321_93156;", "sa", "Minh1213");
+        Connection con = DriverManager.getConnection("jdbc:sqlserver://127.0.0.1:1433;databaseName=PRJ321_93156;", "sa", "");
         return con;
     }
     
